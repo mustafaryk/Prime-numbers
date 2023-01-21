@@ -11,9 +11,3 @@ for i in range(2,upper_no):
             non_prime = True
             break  # if a number is divisible by any non 1 integer break loop as it is a confirmed non prime number
 print(*primes)
-
-
-
-
-
-
