@@ -1,4 +1,4 @@
-upper_no = int(input('enter the upper limit'))  # upper limit of the range of numbers in which you want to find primes
+upper_no = int(input('enter the upper limit')) + 1  # upper limit of the range of numbers in which you want to find primes
 non_prime = True  # to keep track if a number was divisible by any non 1 integer
 primes = [2]  # we have to keep 2 for starters, so the inner loop can start
 for i in range(2,upper_no):
